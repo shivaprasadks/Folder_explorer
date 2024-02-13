@@ -3,7 +3,7 @@
 
 1. Clone this repository to destination folder.
 
-`git clone `
+`git clone git@github.com:shivaprasadks/Folder_explorer.git`
 
 2. Install dependencies.
 
