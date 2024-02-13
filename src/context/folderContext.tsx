@@ -27,7 +27,6 @@ interface UpdateTreeProps {
 const FolderContextProvider = ({ children }: { children: ReactNode }): JSX.Element => {
   const [initialState, setContextState] = useState(DEFAULT_STATE);
   const updateHandler = (state = {}) => {
-    console.log(state);
     setContextState({ ...initialState, ...state });
   };
   const updateTreeState = ({ tree, id, value, keyPressed = 'Enter' }: UpdateTreeProps) => {

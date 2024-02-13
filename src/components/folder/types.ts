@@ -11,6 +11,6 @@ export type StructuredProps = {
   data?: StructuredProps[];
   meta?: string;
   isExpanded?: boolean;
-  id?: string;
+  id: string;
   showOptions?: boolean;
 };
