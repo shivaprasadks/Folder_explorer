@@ -1,11 +1,8 @@
+import Layout from '@components/layout';
 import React from 'react';
-import FolderContextProvider from './context/folderContext';
-import Explorer from '@components/explorer';
 
 const App = (): JSX.Element => (
-  <FolderContextProvider>
-    <Explorer />
-  </FolderContextProvider>
+  <div><Layout /></div>
 );
 
 export default App;

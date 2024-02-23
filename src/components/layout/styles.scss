@@ -1,0 +1,53 @@
+.mainContainer {
+    margin: 20px;
+
+    .imageLayout{
+        display: flex;
+        width: 100%;
+        // flex-direction: column;
+        // height: 900px;
+        flex-wrap: wrap;
+        flex-basis: auto;
+    }
+   
+
+    .imageCard {
+        border-radius: 5px;
+        padding: 10px;
+        text-align: center;
+
+        .imageContent{
+            border-radius: 20px;
+            width: 300px;
+
+            &:hover {
+                box-shadow: 0 0 10px 0 black;
+                cursor: pointer;
+            }
+        }
+        .title{
+            padding: 10px 0;
+            font-size: 18px;
+            font-weight: 500;
+            color: #666161;
+        }
+       
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .mainContainer {
+        .imageCard {
+            border-radius: 5px;
+            padding: 5px;
+    
+            .imageContent{
+                border-radius: 20px;
+                width: 250px;
+            }
+            .title{
+                padding: 10px 5px;
+            }
+        }
+    }
+}
